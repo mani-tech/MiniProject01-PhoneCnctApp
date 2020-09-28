@@ -48,7 +48,7 @@ public class ContactInfoController {
 			}
 			else
 			{
-			attribute.addFlashAttribute("successMsg", "Contact saved successfully");
+			attribute.addFlashAttribute("successMsg", "Contact saved successfullyyyyyy");
 			logger.info("***contact saved successfully *** ");
 
 			}
