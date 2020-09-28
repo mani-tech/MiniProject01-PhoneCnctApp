@@ -29,7 +29,7 @@ public class ContactInfoController {
 		Contact contactObj=new Contact();
 		//sending empty object to ui
 		model.addAttribute("contact", contactObj);
-		logger.debug("***loadFormPage method got started ***");
+		logger.debug("***loadFormPage method got ended ***");
 		logger.info("***loadFormPage method executed successfully ***");
 		return "index";	
 	}
